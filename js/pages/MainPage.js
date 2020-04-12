@@ -115,20 +115,9 @@ export default class MainPage {
                 this._continue.innerHTML = ``;
                 this._end.innerHTML = `
                 <div class="alert alert-success" role="alert">
-                  Это Ваш окончательный вердикт
+                  Конец
                 </div>
                 `;
-                break;
-            case "RQ":
-                this._yes.innerHTML = ``;
-                this._no.innerHTML = ``;
-                this._continue.innerHTML = `
-                <div class="alert alert-warning" role="alert">
-                Это Ваш предварительный вердикт
-                </div>
-                <button data-id="continue" type="button" class="btn btn-primary btn-lg btn-block">Продолжить</button>
-                `;
-                this._end.innerHTML = ``;
                 break;
         }
     }
