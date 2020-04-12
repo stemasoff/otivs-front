@@ -80,7 +80,7 @@ const router = new Router();
 
 router.register('/', MainPage);
 
-const backendUrl = 'https://dpr-back.herokuapp.com';
+const backendUrl = 'https://otivs-back.herokuapp.com/';
 
 const api = new Api(`${backendUrl}/api/v1`);
 new Context(document.getElementById('root'), api, router, translator, backendUrl);
